@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Яндекс Карты - Базовый API</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru_RU" type="text/javascript"></script>
+    <script src="config.js"></script>
+    <script src="utils.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Яндекс Карты - Базовый API</h1>
+            <p>Демонстрация основных функций работы с картами</p>
+        </header>
+        
+        <div class="controls">
+            <button id="addMarker">Добавить маркер</button>
+            <button id="addPolygon">Добавить полигон</button>
+            <button id="addPolyline">Добавить линию</button>
+            <button id="clearAll">Очистить все</button>
+            <button id="getCenter">Получить центр</button>
+            <button id="setZoom">Установить зум</button>
+        </div>
+        
+        <div class="map-container">
+            <div id="map" class="map"></div>
+        </div>
+        
+        <div class="info-panel">
+            <h3>Информация о карте</h3>
+            <div id="mapInfo">
+                <p>Координаты центра: <span id="centerCoords">-</span></p>
+                <p>Текущий зум: <span id="currentZoom">-</span></p>
+                <p>Количество объектов: <span id="objectCount">0</span></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="mapkit.js"></script>
+    <script src="examples.js"></script>
+</body>
+</html>
