@@ -18,11 +18,11 @@ kotlin = "2.2.20"
 coroutines = "1.10.2"
 settings = "1.3.0"
 serialization = "1.9.0"
-ktorClientVersion = "3.2.3"
+ktorClientVersion = "3.3.0"
 buildkonfig = "0.17.1"
 
 #noinspection NewerVersionAvailable
-mapkit = "4.19.0-navikit"
+mapkit = "4.22.0-navikit"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
