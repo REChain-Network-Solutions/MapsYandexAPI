@@ -22,7 +22,7 @@ ktorClientVersion = "3.3.1"
 buildkonfig = "0.17.1"
 
 #noinspection NewerVersionAvailable
-mapkit = "4.23.0-navikit"
+mapkit = "4.24.0-navikit"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
