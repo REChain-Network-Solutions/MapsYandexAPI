@@ -14,7 +14,7 @@ plugins {
 allprojects {
     configurations.all {
         resolutionStrategy {
-            force("com.yandex.android:maps.mobile:4.29.0-navikit")
+            force("com.yandex.android:maps.mobile:4.30.0-navikit")
         }
     }
 }
