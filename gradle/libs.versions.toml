@@ -10,9 +10,9 @@ androidx-appcompat = "1.7.1"
 androidx-constraintlayout = "2.2.1"
 androidx-core = "1.16.0"
 androidx-espresso = "3.6.1"
-androidx-lifecycle = "2.9.6"
+androidx-lifecycle = "2.10.0"
 androidx-testExt = "1.2.1"
-composeMultiplatform = "1.10.2"
+composeMultiplatform = "1.10.3"
 junit = "4.13.2"
 kotlin = "2.3.20"
 coroutines = "1.10.2"
@@ -22,7 +22,7 @@ ktorClientVersion = "3.4.1"
 buildkonfig = "0.17.1"
 
 #noinspection NewerVersionAvailable
-mapkit = "4.33.0-navikit"
+mapkit = "4.33.1-navikit"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
